@@ -50,13 +50,8 @@ repo: 'https://github.com/gllmAR/docsify-modele-classique',
 Source et lien vers style CSS lié  [gllmAR/docsify-simple-style](https://github.com/gllmAR/docsify-simple-style/)
 
 
-```html
-<style>
-    :root {
-        --theme-hue:2;
-        --theme-brightness:60%;
-    }
-</style>
+```mermaid
+
 ```
 
 
