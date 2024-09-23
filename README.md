@@ -29,7 +29,7 @@ graph TD;
     parle?-->non2[Tu l'envoi se promener et tu continue de travailler.];
     salut-->trésort[tu suit les indications qui te mènent à une boîte enterré.];
     trésort-->argent[La boîte contient 999 999 999$ faque t'est riche, alors tu donne ton 2 semaine.];
-    argent-->village[tu te rend en ville pour la première fois];
+    argent-->catastrophe[le troux que le joueur à creusé est sit profont qu'il s'écroule et étouffe le personnage.];
     village-->fête[Tu fête.];
     fête-->dors[t'est fatigué après la fête alors tu dors pendant 4 jours.];
     dors-->creuse3[À ton réveil tu te rend pour la dernière fois à ton site de travail et tu creuse.];
