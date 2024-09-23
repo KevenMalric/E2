@@ -49,8 +49,39 @@ repo: 'https://github.com/gllmAR/docsify-modele-classique',
 
 Source et lien vers style CSS lié  [gllmAR/docsify-simple-style](https://github.com/gllmAR/docsify-simple-style/)
 
-
 ```mermaid
+graph TD;
+    personnage-->apprenti?;
+    apprenti?-->oui;
+    apprenti?-->non;
+    oui-->creuse;
+    non-->personnage;
+    creuse-->visiteur;
+    visiteur-->parle?;
+    parle?-->salut;
+    parle?-->non2;
+    salut-->trésort;
+    trésort-->argent;
+    argent-->village;
+    village-->fête;
+    fête-->dors;
+    dors-->creuse3;
+    creuse3-->serpent;
+    serpent-->mord;
+    mord-->meurt;
+    meurt-->personnage;
+    non2-->continue;
+    continue-->enfant;
+    enfant-->tutel;
+    tutel-->vieux;
+    vieux-->choix
+    choix-->vieillard;
+    choix-->jeune;
+    vieillard-->mort;
+    mort-->personnage;
+    jeune-->personnage2;
+    personnage2-->creuse;
+    
 
 ```
 
