@@ -23,7 +23,7 @@ graph TD;
     oui-->creuse[le joueur peut creuser et ammaser des gains];
     non-->décès[le joueur meurt de faim];
     décès-->personnage
-    creuse-->visiteur[Une belle journée, le joueur se fait visiter par un étranger qui lui demande de l'écouter.];
+    creuse-->adulte[le joueur devient adulte et très avide de richesses]-->visiteur[Une belle journée, le joueur se fait visiter par un étranger qui lui demande de l'écouter.];
     visiteur-->parle?[tu accepte de l'écouter?];
     parle?-->salut[tu lui dit bonjours et tu l'écoute. Il t'apprend la position d'un trésort de valeur inestimable.];
     parle?-->non2[Tu l'envoi se promener et tu continue de travailler.];
