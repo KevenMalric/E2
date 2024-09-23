@@ -4,7 +4,7 @@
 ## Par Keven Malric
 
 ### Idée derrière l'oeuvre
-Le principe de l'oeuvre: Cycle Éco-Planétaire est de critiquer un manque de sens de la routine industrielle/humaine. Par l'immersion, de la réalité augmentée, Cycle Éco-Planétaire plonge ses participant dans un univers desertique ou il n'y a aucune végétation et ou le seul moyen d'avancer est de creusé vainment les sables pour des richesses temporaires. L'oeuvre en réalité virtuelle cherche à choquer par manque de progrès du point de vue de l'histoire afin de démontré la futilité des actions commises par l'avarice et l'envie humaine qui détruit notre environnement.
+Le principe de l'oeuvre: **Cycle Éco-Planétaire** est de critiquer un manque de sens de la routine industrielle/humaine. Par l'immersion, de la réalité augmentée, **Cycle Éco-Planétaire** plonge ses participant dans un univers desertique ou il n'y a aucune végétation et ou le seul moyen d'avancer est de creusé vainment les sables pour des richesses temporaires. L'oeuvre en réalité virtuelle cherche à choquer par manque de progrès du point de vue de l'histoire afin de démontré la futilité des actions commises par l'avarice et l'envie humaine qui détruit notre environnement.
 
 #### meta
 
