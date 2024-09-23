@@ -14,7 +14,7 @@ Une fois que l'expérience est terminé, l'utilisateur est (*idéalement*) pris 
 ### Les patentes qu'on a utilisés
 systhème suround sound logithèque Z906 5.1 Speaker System. 4 projecteur lazer 4k Dangbei DBOX02 (Mars Pro 2), Meta Quest 3.
 
-
+# scénarimage
 ```mermaid
 graph TD;
     personnage[le joueur apparait dans le désert, il est pauvre]-->apprenti?;
