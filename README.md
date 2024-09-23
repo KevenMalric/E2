@@ -17,36 +17,37 @@ systhème suround sound logithèque Z906 5.1 Speaker System. 4 projecteur lazer 
 
 ```mermaid
 graph TD;
-    personnage-->apprenti?;
-    apprenti?-->oui;
-    apprenti?-->non;
-    oui-->creuse;
-    non-->personnage;
-    creuse-->visiteur;
-    visiteur-->parle?;
-    parle?-->salut;
-    parle?-->non2;
-    salut-->trésort;
-    trésort-->argent;
-    argent-->village;
-    village-->fête;
-    fête-->dors;
-    dors-->creuse3;
-    creuse3-->serpent;
-    serpent-->mord;
-    mord-->meurt;
+    personnage[le joueur apparait dans le désert]-->apprenti?;
+    apprenti?[après un temps, le joueur rencontre un veillard qui lui propose de lui apprendre à utliliser une pelle pour creuser et trouver des objets de valeur]-->oui;
+    apprenti?[après un temps, le joueur rencontre un veillard qui lui propose de lui apprendre à utliliser une pelle pour creuser et trouver des objets de valeur]-->non;
+    oui-->creuse[le joueur peut creuser et ammaser des gains];
+    non-->décès[le joueur meurt de faim];
+    décès-->personnage
+    creuse-->visiteur[Une belle journée, le joueur se fait visiter par un étranger qui lui demande de l'écouter.];
+    visiteur-->parle?[tu accepte de l'écouter?];
+    parle?-->salut[tu lui dit bonjours et tu l'écoute. Il t'apprend la position d'un trésort de valeur inestimable.];
+    parle?-->non2[Tu l'envoi se promener et tu continue de travailler.];
+    salut-->trésort[tu suit les indications qui te mènent à une boîte enterré.];
+    trésort-->argent[La boîte contient 999 999 999$ faque t'est riche, alors tu donne ton 2 semaine.];
+    argent-->village[tu te rend en ville pour la première fois];
+    village-->fête[Tu fête.];
+    fête-->dors[t'est fatigué après la fête alors tu dors pendant 4 jours.];
+    dors-->creuse3[À ton réveil tu te rend pour la dernière fois à ton site de travail et tu creuse.];
+    creuse3-->serpent[quand tu creuse, tu trouve un serpent!!!!];
+    serpent-->mord[Il te mord!];
+    mord-->meurt[Il était venimeux, donc tu meurt!!!];
     meurt-->personnage;
-    non2-->continue;
-    continue-->enfant;
-    enfant-->tutel;
-    tutel-->vieux;
-    vieux-->choix
+    non2-->continue[Ton travail se poursuit pendat plusieurs années];
+    continue-->enfant[quelques années plus tard tu croise un enfant et tu est frappé par une nostalgie lointaine];
+    enfant-->tutel[tu propose à l'enfant de lui apprendre à creuser à la pelle et l'enfant accepte.];
+    tutel-->vieux[tu viellit et l'enfant grandit...];
+    vieux-->choix[une fois vieux  le personnage arrêt et le joueur doit faire un choix entre le vieux et le jeune.]
     choix-->vieillard;
     choix-->jeune;
-    vieillard-->mort;
+    vieillard-->mort[le joueur continue avec son vieux personnage. Le vieux personnage fini par mourrir.];
     mort-->personnage;
-    jeune-->personnage2;
-    personnage2-->creuse;
+    jeune-->personnage2[Le joueur prend le personnage numéro 2];
+    personnage2-->loop[boucle infini de la vie]-->creuse;
     
 
 ```
