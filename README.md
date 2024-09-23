@@ -17,9 +17,9 @@ systhème suround sound logithèque Z906 5.1 Speaker System. 4 projecteur lazer 
 
 ```mermaid
 graph TD;
-    personnage[le joueur apparait dans le désert]-->apprenti?;
-    apprenti?[après un temps, le joueur rencontre un veillard qui lui propose de lui apprendre à utliliser une pelle pour creuser et trouver des objets de valeur]-->oui;
-    apprenti?[après un temps, le joueur rencontre un veillard qui lui propose de lui apprendre à utliliser une pelle pour creuser et trouver des objets de valeur]-->non;
+    personnage[le joueur apparait dans le désert, il est pauvre]-->apprenti?;
+    apprenti?[le joueur rencontre un veillard riche qui lui propose de lui apprendre son métier]-->oui;
+    apprenti?[le joueur rencontre un veillard riche qui lui propose de lui apprendre son métier]-->non;
     oui-->creuse[le joueur peut creuser et ammaser des gains];
     non-->décès[le joueur meurt de faim];
     décès-->personnage
@@ -32,17 +32,13 @@ graph TD;
     argent-->catastrophe[le troux que le joueur à creusé est sit profont qu'il s'écroule et étouffe le personnage.];
     catastrophe-->meurt[Il n'as plus d'air, donc tu meurt!!!];
     meurt-->personnage;
-    non2-->continue[Ton travail se poursuit pendat plusieurs années];
+    non2-->continue[Ton travail se poursuit pendant plusieurs années];
     continue-->enfant[quelques années plus tard tu croise un enfant et tu est frappé par une nostalgie lointaine];
-    enfant-->tutel[tu propose à l'enfant de lui apprendre à creuser à la pelle et l'enfant accepte.];
-    tutel-->vieux[tu viellit et l'enfant grandit...];
-    vieux-->choix[une fois vieux  le personnage arrêt et le joueur doit faire un choix entre le vieux et le jeune.]
-    choix-->vieillard;
-    choix-->jeune;
-    vieillard-->mort[le joueur continue avec son vieux personnage. Le vieux personnage fini par mourrir.];
+    enfant-->vieux[le joueur vieillit]
+    vieux-->trou[le joueur, une fois vieux, à tellement creusé que le trou fait plus de dix kilomètres de rayons et huit kilomètres de profond.];
+    trou-->mort[le joueur tombe dans le trou et meurt!]
     mort-->personnage;
-    jeune-->personnage2[Le joueur prend le personnage numéro 2];
-    personnage2-->loop[boucle infini de la vie]-->creuse;
+    
     
 
 ```
