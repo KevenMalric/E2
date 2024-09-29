@@ -33,6 +33,8 @@ Le principe de l'oeuvre: **Cycle Éco-Planétaire** est de critiquer un manque d
 
 ### Ambiance
 
+(Moodboard)[/img/moodboard.png]
+
 ### Expérience recherchée
 
 l'utilisateurs entre dans la pièce ou un musique désolante joue. il des entouré d'écran qui joue en boucle le paysage d'un désert. La victime met le casque VR et prend les manette. lorsqu'elle joue elle vit des sensation de non-sens et de désespoir.
