@@ -40,6 +40,8 @@ graph TD;
 
 ### Ambiance
 ![moodboard](/img/Moodboard.png)
+![wind](/sounds/wind_blowing.mp3)
+![digging](/sounds/digging.mp3)
 
 ### Les technologies utilisées
 
