@@ -4,7 +4,7 @@
 
 ### Idée derrière l'oeuvre
 
-Le principe de l'oeuvre: **Cycle Éco-Planétaire** est de critiquer d'un exès d'avarisme humain. Par l'immersion, de la réalité augmentée, **Cycle Éco-Planétaire** plonge ses participants dans un univers désertique ou il n'y a aucune végétation et ou le seul moyen d'avancer pour le personnage avare est de creuser vainement les sables pour des richesses qui causeront sa perte inévitable. L'oeuvre en réalité virtuelle cherche à choquer par manque de progrès du point de vue de l'histoire afin de démontrer la futilité d'être avare et de sensibilisé les participants à la destruction des lieux commises par l'action humaine.
+Le principe de l'oeuvre: Cycle Éco-Planétaire est de critiquer d'un excès d'avarice humain. Par l'immersion, de la réalité augmentée, Cycle Éco-Planétaire plonge ses participants dans un univers désertique ou il n'y a aucune végétation et/ou le seul moyen d'avancer pour le personnage rapace est de creuser vainement les sables pour des richesses qui causeront sa perte inévitable. L'oeuvre en réalité virtuelle cherche à choquer par manque de progrès du point de vue de l'histoire afin de démontrer la futilité d'être avare et de sensibiliser les participants à la destruction des lieux commise par l'action humaine.
 
 ### Expérience recherchée
 
