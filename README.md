@@ -14,7 +14,7 @@ Une fois que l'expérience est terminé, l'utilisateur est (*idéalement*) pris 
 ### scénarimage
 
 ```mermaid
-graph TD;
+graph TD; 
     personnage[le joueur apparait dans le désert, il est pauvre]-->apprenti?;
     apprenti?[le joueur rencontre un veillard riche qui lui propose de lui apprendre son métier]-->oui;
     apprenti?[le joueur rencontre un veillard riche qui lui propose de lui apprendre son métier]-->non;
